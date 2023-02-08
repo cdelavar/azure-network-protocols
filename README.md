@@ -161,6 +161,30 @@ Set the Priority to 200 so the rule takes effect before the others. Name the rul
 <br />
 
 <p>
+<img src="https://imgur.com/ueTk5KC.png" height="80%" width="80%" alt="Request Timed Out"/>
+</p>
+<p>
+Looking back at Powershell and Wireshark, we see that the perpetual ping request from VM-1 is getting timed out. 
+</p>
+<br />
+
+<p>
+<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+</p>
+<p>
+Lorem ipsum
+</p>
+<br />
+
+<p>
+<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+</p>
+<p>
+Lorem ipsum
+</p>
+<br />
+
+<p>
 <img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
 </p>
 <p>
