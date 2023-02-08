@@ -65,6 +65,70 @@ Network Watcher - Topology
 <br />
 
 <p>
+<img src="https://imgur.com/QnCStZb.png" height="80%" width="80%" alt="Download Wireshark"/>
+</p>
+<p>
+Download Wireshark from wireshark.org and install everything by the defaults.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/87hBh49.png" height="80%" width="80%" alt="Capture Packets"/>
+</p>
+<p>
+Press the shark fin icon in the upper left corner to start capturing packets.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/kwBRKVo.png" height="80%" width="80%" alt="Filter ICMP"/>
+</p>
+<p>
+Type ICMP into the input box at the top and notice there are no packets being sent or received.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/Itdf5fP.png" height="80%" width="80%" alt="Create Linux VM"/>
+</p>
+<p>
+Find the private IP of the Ubuntu virtual machine and ping it using Powershell. Notice the packets sent and received.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/EuSUWPd.png" height="80%" width="80%" alt="Wireshark ICMP Packets"/>
+</p>
+<p>
+You can see the pings and replies in Wireshark.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/emkGQ1l.png" height="80%" width="80%" alt="Ping G"/>
+</p>
+<p>
+Ping google.com in Powershell (ping google.com -4) and note the traffic in Wireshark.
+</p>
+<br />
+
+<p>
+<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+</p>
+<p>
+Lorem ipsum
+</p>
+<br />
+
+<p>
+<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+</p>
+<p>
+Lorem ipsum
+</p>
+<br />
+
+<p>
 <img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
 </p>
 <p>
