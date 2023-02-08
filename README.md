@@ -169,10 +169,26 @@ Looking back at Powershell and Wireshark, we see that the perpetual ping request
 <br />
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+<img src="https://imgur.com/bZE78he.png" height="80%" width="80%" alt="Allow ICMP Traffic"/>
 </p>
 <p>
-Lorem ipsum
+Let's allow ICMP traffic again in the Azure portal. 
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/v5Jzx1K.png" height="80%" width="80%" alt="SSH in Powershell"/>
+</p>
+<p>
+Now let's SSH into the Linux VM from the Windows VM. Use the command ssh [username]@private ip, in this case it would be ssh labuser@10.0.0.5
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/Bd2v7qh.png" height="80%" width="80%" alt="SSH in Wireshark"/>
+</p>
+<p>
+Filter the Wireshark protocol analyzer for SSH traffic only.
 </p>
 <br />
 
@@ -180,7 +196,7 @@ Lorem ipsum
 <img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
 </p>
 <p>
-Lorem ipsum
+You'll be prompted to enter the password for the Linux machine.
 </p>
 <br />
 
