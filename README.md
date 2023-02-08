@@ -57,10 +57,10 @@ Create the second virtual machine with an Ubuntu image. Make sure to use the sam
 <br />
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+<img src="https://imgur.com/q7JK80w.png" height="80%" width="80%" alt="Network Watcher Topology"/>
 </p>
 <p>
-Lorem ipsum
+Network Watcher - Topology
 </p>
 <br />
 
