@@ -60,7 +60,7 @@ Create the second virtual machine with an Ubuntu image. Make sure to use the sam
 <img src="https://imgur.com/q7JK80w.png" height="80%" width="80%" alt="Network Watcher Topology"/>
 </p>
 <p>
-Network Watcher - Topology
+To view the Azure provided diagram of our virtual network, virtual machines, and network security groups, navigate to Network Watcher and click on Topology. Choose the resource group and virtual network.
 </p>
 <br />
 
@@ -193,17 +193,65 @@ Filter the Wireshark protocol analyzer for SSH traffic only.
 <br />
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+<img src="https://imgur.com/b8zhD0x.png" height="80%" width="80%" alt="SSH Connection"/>
 </p>
 <p>
-You'll be prompted to enter the password for the Linux machine.
+You'll be prompted to enter the password for the Linux machine. When the SSH connection is successfully established, you'll see the command line for the Linux machine: username@VM: $
 </p>
 <br />
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Create Linux VM"/>
+<img src="https://imgur.com/tutacKY.png" height="80%" width="80%" alt="SSH Traffic Wireshark"/>
 </p>
 <p>
-Lorem ipsum
+The SSH traffic can be seen coming through the network on Wireshark
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/sNGcuzB.png" height="80%" width="80%" alt="Close Connection"/>
+</p>
+<p>
+Type exit in Powershell to close the connection with the Linux VM.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/vhAXnsG.png" height="80%" width="80%" alt="TCP Pot 22"/>
+</p>
+<p>
+You can also filter on TCP port 22 in Wireshark to see the SSH traffic (tcp.port == 22).
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/NlPb07W.png" height="80%" width="80%" alt="DHCP Traffic"/>
+</p>
+<p>
+Now filter DHCP traffic in Wireshark. In Powershell, type ipconfig /renew. The Windows VM will broadcast on the virtual network to request a new IP address. The DHCP server inside the virtual network will reissue an IP address to the VM, and the DHCP traffic will appear in the Wireshark analyzer.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/MyPXupP.png" height="80%" width="80%" alt="DNS Traffic"/>
+</p>
+<p>
+In Powershell, type nslookup www.google.com, and filter for DNS traffic in Wireshark. This will request google's IP address from the DNS server.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/Pk9y9wY.png" height="80%" width="80%" alt="DNS Wireshark"/>
+</p>
+<p>
+DNS query and responses from DNS server in Wireshark.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/cmGJLRV.png" height="80%" width="80%" alt="UDP Port 53"/>
+</p>
+<p>
+You can also filter by UDP Port 53 traffic (udp.port == 53)
 </p>
 <br />
