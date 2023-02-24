@@ -21,10 +21,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create two virtal machines - one running Linux and one running Windows
+- Download and install Wireshark
+- Filter and inspect packet data on Wireshark
+- Experiment with changing inbound security rules in Azure
+- Filter the Wireshark protocol analyzer for various types of traffic, such as SSH, DHCP, and DNS
 
 <h2>Actions and Observations</h2>
 
